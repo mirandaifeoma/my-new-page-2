@@ -1,0 +1,124 @@
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.goodbyeText{
+  padding: 3rem!important;
+  margin-top: 1rem!important;
+}
+.pricing{
+  background-color: rgb(0, 128, 12);
+  padding: 3rem!important;
+  margin-top: 3rem!important;
+}
+.dollarCard{
+  margin: 3rem auto 0 auto;
+  /* position: relative!important; */
+}
+
+.button{
+  position: absolute!important;
+  bottom: -1.4%;
+  left: 16vmin;
+}
+@media (max-width:1367px){
+  /* .dollarCard{
+    display: block!important;
+  } */
+    /* .welcomeCard {
+      height: 40vh !important;
+      margin-bottom: 2rem;
+    } */
+}
+@media (max-width:1120px) {
+  .welcome{
+    display: block!important;
+    padding: 0 2rem!important;
+  }
+  .welcome1{
+    text-align: center!important;
+    padding-top: 1rem!important;
+  }
+  /* .welcomeCard{
+    width: 44vw!important;
+    height: 90vh!important;
+    margin-top: 2rem!important;
+  } */
+  
+  .houseCard{
+    width: 44vw!important;
+    
+  }
+ 
+  .button{
+    left: 40%;
+    bottom: -5%;
+  }
+  .pricing2{
+    /* display: block!important; */
+  }
+}
+@media (max-width:800px){
+  /* .welcomeCard{
+    height: 45vh!important;
+  } */
+}
+@media (max-width:740px) {
+  .welcome{
+    padding: 0!important;
+  }
+  .welcomeCard{
+    width: 100vw!important;
+    height: 100vh!important;
+    
+    margin: 2rem auto 0 auto!important;
+  }
+  .pricing{
+    padding: 2rem 0!important;
+  }
+  
+}
+@media (max-width:480px) {
+  .houseCard{
+    width: 90vw!important;
+    margin: auto;
+    
+  }
+  
+}
